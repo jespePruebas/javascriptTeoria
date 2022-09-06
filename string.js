@@ -32,13 +32,13 @@ var d = new String("Quispe Castro");
 /********************************************************************/
 //cl.log(a.replace("Castro", "Quispe")); //Quispe Quispe /reemplaza solo la primera coincidencia
 //cl.log(a.replace("CASTRO", "Quispe")); //ningun cambio
-console.log(a.toUpperCase()); //ME LL@MO DAVID CASTRO CASTRO
-console.log(a.toLocaleUpperCase()); //ME LL@MO DAVID CASTRO CASTRO
-console.log(a.toLocaleLowerCase()); //me, ll@mo, david, castro, castro
-console.log(a.toLowerCase()); //me, llamo, david, castro, castro
-console.log(a.concat(" + ", b)); //Me, Ll@mo, DAVID, Castro, Castro +          1   Peruano    1
-console.log(a.trim()); //1   Peruano    1
-console.log(str.charAt(1)); //e
+//console.log(a.toUpperCase()); //QUISPE CASTRO
+//console.log(a.toLocaleUpperCase()); //QUISPE CASTRO / para otros idiomas
+//console.log(a.toLocaleLowerCase()); //quispe castro / para otros idiomas
+//console.log(a.toLowerCase()); //quispe castro
+//console.log(a.concat(" + ", b)); // Quispe Castro + 24
+//console.log(a.trim());//elimina los espacios en blanco en ambos extremos del string
+//console.log(a.charAt(1)); //u
 console.log(str.charCodeAt(6)); //64
 console.log(str.split("a")); //(3)["Me, Ll@mo, DAVID, C", "stro, C", "stro"]
 console.log(str.split("a", 2)); //(2) ["Me, Ll@mo, DAVID, C", "stro, C"]
