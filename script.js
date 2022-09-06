@@ -1,15 +1,18 @@
 let d = document;
 
 let id = d.getElementById("id");
-//let clases = d.getElementsByClassName("clase");
+let clase = d.getElementsByClassName("class");
+
 
 id.style.color = "red";
-document.getElementsByClassName("clase").style.color = "blue";
+clase[1].style.color = "green";
 
-let c = d.getElementsByName("fname"); //<input name="fname" type="text" value="Doug"> 
 
-/*obligatorio lleva un indice*/
-//let list1= d.getElementsByTagName("LI")[0]; // <li>Coffee</li> 
+
+//document.getElementsByClassName("clase").style.color = "blue";//dara un error
+
+
+
 
 // The querySelector() method returns the first element that matches a specified CSS selector(s) in the d. 
 
